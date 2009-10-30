@@ -40,8 +40,7 @@
                                    type="pear-config"/>
                     <tasks:replace from="@package_version@" to="version"
                                    type="package-info"/>
-
-                </file>)
+                </file>
             </dir>
             <dir name="scripts">
                 <file name="php-repl" role="script" install-as="php-repl"
